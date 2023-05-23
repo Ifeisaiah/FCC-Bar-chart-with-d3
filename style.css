@@ -21,6 +21,7 @@
     #tooltip {
         margin-top: 20px;
         font-size: 18px;
+        color: white;
     }
     rect {
         fill: #4a4e69;
