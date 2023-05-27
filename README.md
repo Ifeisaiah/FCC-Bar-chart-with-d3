@@ -1,5 +1,5 @@
 # FCC-Bar-chart-with-d3
-This is my solution to freeCodeCamp's bar chart test from the Data Visualization course. 
+This is my solution to freeCodeCamp's bar chart test from the Data Visualization course https://codepen.io/Luwa_I/pen/poxGPvo. 
 I hope you find this helpful as I myself was thoroughly frustrated before I figured it out by getting help online.
 
 First, we are told to create our bar chart similar to this https://bar-chart.freecodecamp.rocks/.
