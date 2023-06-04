@@ -1,4 +1,3 @@
- let data;
  let values = []; // this is the array where we would store the data from api
 
  let heightScale;
@@ -85,7 +84,7 @@
            tooltip.style('visibility', 'hidden')
       })
  }
- let generateAxis = () => {
+ let generateAxes = () => {
   let xAxis = d3.axisBottom(xAxisScale)
 
   svg.append('g')
@@ -105,13 +104,12 @@
  fetch('https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json')
  .then(res => res.json())
  .then(data => {
-  data = data;
   values = data.data
   console.log(values)
   drawChart()
   generateScales()
   drawBars()
-  generateAxis()
+  generateAxes()
  });
 
 
